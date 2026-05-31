@@ -10,7 +10,7 @@ export const testimonials: Testimonial[] = [
   {
     id: "t1",
     name: "Priya & Arjun",
-    role: "Wedding - Mumbai",
+    role: "Wedding - Madurai",
     quote: "Raja Events turned our dream wedding into reality. The attention to detail was impeccable, and we didn't have to worry about a single thing.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200",
   },

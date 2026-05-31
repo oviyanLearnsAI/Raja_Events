@@ -55,7 +55,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4 className="font-bold text-foreground mb-1">Location</h4>
-                <p>Cuddalore, India</p>
+                <p>Theni, India</p>
               </div>
             </div>
           </motion.div>
