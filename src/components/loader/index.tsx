@@ -33,7 +33,7 @@ export default function Loader({ onFinish }: LoaderProps) {
         className="flex flex-col items-center gap-8"
       >
         <h1 className="text-4xl font-bold tracking-widest text-foreground">
-          {SITE_CONFIG.name.split(" ")[0]}
+          {SITE_CONFIG.name}
           <span className="text-primary">.</span>
         </h1>
 

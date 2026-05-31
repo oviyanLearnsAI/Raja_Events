@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { SITE_CONFIG } from "@/lib/constants";
-// import { Facebook, Instagram, Phone } from "lucide-react";
+import { Camera, Globe, Phone } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -61,21 +61,21 @@ export default function Footer() {
                 className="hover:text-foreground transition-colors"
                 aria-label="Instagram"
               >
-                {/* <Instagram size={20} /> */}
+                <Camera size={20} />
               </Link>
               <Link
                 href={SITE_CONFIG.links.facebook}
                 className="hover:text-foreground transition-colors"
                 aria-label="Facebook"
               >
-                {/* <Facebook size={20} /> */}
+                <Globe size={20} />
               </Link>
               <Link
                 href={SITE_CONFIG.links.whatsapp}
                 className="hover:text-foreground transition-colors"
                 aria-label="WhatsApp"
               >
-                {/* <Phone size={20} /> */}
+                <Phone size={20} />
               </Link>
             </div>
           </div>

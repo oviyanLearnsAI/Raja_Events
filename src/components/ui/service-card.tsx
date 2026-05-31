@@ -17,7 +17,9 @@ export default function ServiceCard({
     >
       <div
         className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
-        style={{ backgroundImage: `url(${image})` }}
+        style={{
+          backgroundImage: `url(${typeof image === "object" ? (image as any).src : image})`,
+        }}
       />
 
       <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
